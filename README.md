@@ -1,3 +1,16 @@
-# Airplane_Crash_Analysis
+Adam Goldstein: adkap2 \
+Ryan Cummings: r1cummings \
+Ratika Bhuwalka: ratikabhuwalka \
+Sai Srinivas Lakkakula: saisrinivaslakkakula \
+https://github.com/adkap2/Airplane_Crash_Analysis
 
 
+# To fly or not to fly
+
+You hear the pilot yelling “Mayday Mayday!” over the intercom. What do you do? Brace? Hug your loved ones? Turn off airplane mode and text your family? We hope you never have to experience anything remotely close to this but the recent 20 year memorial of 9/11 got us thinking about what causes a plane to crash. Though we cannot completely eradicate the mishaps of airplanes, we will study the causes of fatalities and use various data mining techniques to determine the risk associated with flying. Our dataset comes from “data.world”, to find our data we used [Dataset Search - Google](https://datasetsearch.research.google.com) and searched for “Airplane crashes” and selected the first one. This took us to airplane crashes dataset from [Data World](https://data.world/data-society/airplane-crashes) where we downloaded the raw data.  We liked this particular dataset because it had over 100 years worth of crashes (time period covers Sept 17, 1908 - June 8, 2009). The dataset also consisted of crashes that were all over the world and across many industries (military, private, commercial, and mail).
+
+The problem we want to investigate is some of the reasons behind airplane crashes. Given our data we will analyze what is the likelihood of death considering factors such as: plane type, season, time, location, and operator. Essentially, we will try to predict whether a crash would be fatal or not based on the segregation that we made. Expanding on this we will also design another algorithm to predict if 100% of the people on board will die, 50% of people onboard will die, or no one on board dies. Not only do we currently plan on using Machine Learning but we also plan on implementing Data Mining Algorithms that will be taught in the future of our course.
+
+We plan to have our project roll out in 3 phases. Phase 1 being the cleaning of data, getting it into a usable format for future EDA and Data Mining Algorithms. Phase 2 is the EDA, where we will investigate the data and draw inferences by plotting graphs and charts. Phase 3 being the portion where we implement various concepts introduced to us in the course and other topics previously learned. As of right now, potential methods that we plan to use are Machine Learning (ex Random Forest, Regression), Clustering, Natural Language Processing. We want to use Machine Learning algorithms to determine the if there will be severe fatalities (binary 1 or 0) along with predicting the the proportion of fatalities (100%, 50%, 0%) given factors such as plane type, season, time, location, and operator. 
+
+Since the end goal is being able to predict the correct number of fatalities we will use measures of success such as: Accuracy, Precision, Recall, Mean Square Error (MSE), Mean Absolute Error (MAE), and Root Mean Square Error (RMSE). We will do multiple train test splits on the datasets and compare them using the measures of success listed. 
