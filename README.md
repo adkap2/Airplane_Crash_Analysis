@@ -2,7 +2,7 @@ Adam Goldstein: adkap2 \
 Ryan Cummings: r1cummings \
 Ratika Bhuwalka: ratikabhuwalka \
 Sai Srinivas Lakkakula: saisrinivaslakkakula \
-https://github.com/adkap2/Airplane_Crash_Analysis
+https://github.com/adkap2/Airplane_Crash_Analysis \
 CMPE 255 Term Project
 
 # Airplane Crash Analysis :airplane:
