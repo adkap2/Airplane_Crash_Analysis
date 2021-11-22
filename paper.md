@@ -29,22 +29,22 @@ This was performed with techniques such as dimensionality reduction to cluster w
 The main focus of our project/paper boils down to 3 questions/ideas: 1. are airplanes are becoming safer over time, 2. predicting if a crash will be fatal or not,  and 3. Being able to predict the number of fatalities on a said flight. 
 
 To answer the first question, we first set out to analyze the trends with the number of accidents and the number of fatalities that are occurring over time. Determining if flights are becoming safer over time is something that can be seen by plotting the total number of accidents that occur over the years. This is seen below:
-FIGURE 2 GOES HERE
-<!-- ![figure2](images/figure2.png) -->
+(Figure 2)
+![figure2](images/figure2.png)
 
 As we can see there appears to be a downwards trend to this data. To further prove that the data is on this trend we can fit a line (linear model) to the data and get the slope of that line. We omitted the years before 1982 since they are reported at 0. This is seen below:
-FIGURE 3 GOES HERE
-<!-- ![figure3](images/figure3.png) -->
+(Figure 3)
+![figure3](images/figure3.png)
 
 Based on the slope of the line above we can see that it is clearly negative. Therefore we strongly believe that based on this data the number of accidents is decreasing as time goes on. 
 
 Similarly, we can look at the total number of fatalities that are occuring overtime. This is seen below:
-FIGURE 4 GOES HERE
-<!-- ![figure4](images/figure4.png) -->
+(Figure 4)
+![figure4](images/figure4.png)
 
 Again we are seeing a decrease in the total number of fatalities that are occuring over the years. To further prove this we fit a line on this data. This is shown below: 
-FIGURE 5 GOES HERE
-<!-- ![figure5](images/figure5.png) -->
+(Figure 5)
+![figure5](images/figure5.png)
 
 Once again we are seeing a decrease in the number of fatalities and a negative slope of this line. Therefore we can strongly conclude that the number of fatalities over time is decreasing. Overall, we can use these two analysis types to firmly argue that the flights are becoming safer overtime. 
 
@@ -73,8 +73,8 @@ Continuing off this analysis we took another approach to answer the question, Ra
 | False Negative Rate   | 5.177% |
 | False Positive Rate   | 35.15% | -->
 
-FIGURE 17 GOES HERE
-<!-- ![figure17](images/figure17.png) -->
+(Figure 17)
+![figure17](images/figure17.png)
 
 
 Lastly, we tried using Principal Component Analysis to reduce the dimensionality reduction.  PCA basically aims to reduce the number of variables of a data set, while preserving as much information as possible. Our dataset had 31 distinct features (columns) to begin with, which got reduced to 22 columns after preprocessing, out of which around 75% had discrete values in them. To prepare the data for pca, we used standard scalar for continuous data and one hot encoding for categorical variables. To understand the relationship between data, we plotted a covariance matrix. As expected, the data was highly unrelated. It could be inferred that the inertia given to a categorical variable inherently depends on the number of modalities available to the variable, and on the probabilities of those modalities. As a result, it would be impossible to give a similar weight to all the initial variables over the calculated components. We tried alternate approaches like Multiple Correspondence Analysis- a variation of PCA to analyze categorical data and Factorial Analysis of Mixed Data, which generalized the PCA algorithm to incorporate both numerical and categorical data.
